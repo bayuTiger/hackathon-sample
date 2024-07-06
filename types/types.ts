@@ -2,7 +2,7 @@ export interface DentalClinic {
   type: string;
   geometry: {
     type: string;
-    coordinates: number[];
+    coordinates: (string | number)[];
   };
   properties: {
     施設名称: string;
